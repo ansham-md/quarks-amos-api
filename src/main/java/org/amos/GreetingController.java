@@ -9,6 +9,18 @@ import java.util.List;
 @RestController
 public class GreetingController {
 
+    /*
+    @AssertFalse, @AssertTrue,
+     @DecimalMax, @DecimalMin,
+     @Digits, @Email, @Future,
+      @FutureOrPresent, @Max, @Min,
+      @Negative, @NegativeOrZero, @NotBlank,
+       @NotEmpty, @NotNull,
+     @Null, @Past, @PastOrPresent, @Pattern,
+      @Positive, @PositiveOrZero, @Size
+
+      https://quarkus.io/guides/validation
+     */
     @GetMapping("/greeting")
     public String hello() {
         return "Hello Spring";
