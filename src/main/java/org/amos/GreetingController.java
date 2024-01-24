@@ -20,6 +20,7 @@ public class GreetingController {
       @Positive, @PositiveOrZero, @Size
 
       https://quarkus.io/guides/validation
+      https://docs.jboss.org/hibernate/stable/validator/reference/en-US/html_single/#_validating_constraints
      */
     @GetMapping("/greeting")
     public String hello() {
